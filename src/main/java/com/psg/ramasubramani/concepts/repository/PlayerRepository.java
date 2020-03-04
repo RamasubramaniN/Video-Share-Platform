@@ -1,4 +1,4 @@
-package com.intuit.ramasubramani.concepts.autoconfig.repository;
+package com.psg.ramasubramani.concepts.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.intuit.ramasubramani.concepts.autoconfig.models.PlayerEntity;
+import com.psg.ramasubramani.concepts.models.PlayerEntity;
 
 @Repository
 public interface PlayerRepository extends JpaRepository<PlayerEntity, String> {

@@ -1,4 +1,4 @@
-package com.intuit.ramasubramani.concepts;
+package com.psg.ramasubramani.concepts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

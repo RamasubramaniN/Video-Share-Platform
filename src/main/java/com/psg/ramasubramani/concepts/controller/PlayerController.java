@@ -1,4 +1,4 @@
-package com.intuit.ramasubramani.concepts.autoconfig.controller;
+package com.psg.ramasubramani.concepts.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.intuit.ramasubramani.concepts.autoconfig.models.PlayerEntity;
-import com.intuit.ramasubramani.concepts.autoconfig.service.PlayerService;
+import com.psg.ramasubramani.concepts.models.PlayerEntity;
+import com.psg.ramasubramani.concepts.service.PlayerService;
 
 /**
  * @author rn5

@@ -1,12 +1,12 @@
-package com.intuit.ramasubramani.concepts.autoconfig.service;
+package com.psg.ramasubramani.concepts.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.intuit.ramasubramani.concepts.autoconfig.models.PlayerEntity;
-import com.intuit.ramasubramani.concepts.autoconfig.repository.PlayerRepository;
+import com.psg.ramasubramani.concepts.models.PlayerEntity;
+import com.psg.ramasubramani.concepts.repository.PlayerRepository;
 
 /**
  * @author rn5

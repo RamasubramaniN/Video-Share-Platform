@@ -1,4 +1,4 @@
-package com.intuit.ramasubramani.concepts.autoconfig.models;
+package com.psg.ramasubramani.concepts.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
