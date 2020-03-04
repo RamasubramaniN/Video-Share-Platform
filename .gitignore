@@ -8,3 +8,6 @@ concepts/.project
 concepts/.settings/org.eclipse.core.resources.prefs
 concepts/.settings/org.eclipse.jdt.core.prefs
 concepts/.settings/org.eclipse.m2e.core.prefs
+.classpath
+.settings/*
+target/*
