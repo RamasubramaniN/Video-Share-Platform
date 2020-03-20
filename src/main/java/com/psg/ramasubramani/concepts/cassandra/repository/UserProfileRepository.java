@@ -8,14 +8,15 @@ import org.springframework.data.cassandra.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.psg.ramasubramani.concepts.cassandra.models.Video;
+import com.psg.ramasubramani.concepts.cassandra.models.UserProfile;
 
+/**
+ * @author rn5
+ *
+ */
 @Repository
-public interface YoutubeRepository extends CassandraRepository<Video, UUID> {
+public interface UserProfileRepository extends CassandraRepository<UserProfile, String>{
 	
-	@Query("SELECT * FROM videos WHERE videoid = :videoId")
-	Optional<Video> findById(@Param("videoId")UUID videoId);	
-	
-	@Query("SELECT * FROM videos WHERE tag = :tag")
-	Optional<Video> findByTag(@Param("tag")String tag);
+	@Query(value = "SELECT * FROM users WHERE userid = :userId")
+	Optional<UserProfile> findUserById(@Param("userId")UUID userId); 
 }
