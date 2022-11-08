@@ -1,5 +1,5 @@
 # SpringBoot-Cassandra
-Simple Youtube Service Backend, Data modeling using Cassandra. Tech : Cassandra + Rest + Spring Boot...
+Simple Video Share Service Backend, Data modeling using Cassandra. Tech : Cassandra + Rest + Spring Boot...
 
 //Execute following scripts in your cassandra database.
 
